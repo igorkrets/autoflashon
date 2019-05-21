@@ -1,0 +1,21 @@
+{
+	"background": {
+      "persistent": false,
+      "scripts": [ "background.js" ]
+   },
+
+    "manifest_version": 2,
+ 
+    "name": "Always Flash On",
+    "description": "This extension always runs flash content.",
+    "version": "1.0",
+ 
+    "browser_action": {
+        "default_icon": "ext_icon.png",
+        "default_popup": "popup.html"
+    },
+
+    "permissions": [
+        "activeTab", "contentSettings", "storage" 
+    ]
+}
